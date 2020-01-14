@@ -1,0 +1,34 @@
+.info-proveedor{
+	padding: 20px 0;
+	ul{
+		list-style: none;
+		padding: 0;
+		li{
+			b{
+				background: $main;
+			    padding: 2px 5px;
+			    color: #fff;
+			}
+
+		}
+	}
+}
+.otra-f-r{
+	background:#ececed;
+	padding:15px;
+	h4{
+		background:#aaaaaa;
+		color:#fff;
+		padding: 2px 5px;
+		display: inline-block;
+	}
+	ul{
+		display: block;
+		list-style: none;
+		padding: 0;
+		li{
+			margin-bottom: 10px;
+			a{}
+		}
+	}
+}

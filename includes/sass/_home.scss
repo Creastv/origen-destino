@@ -1,0 +1,439 @@
+.navbar-home{
+    background:none!important;
+     .navbar-brand-centered {
+       position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 40%;
+      height: 50%;
+      color: white;
+      text-align: center;
+       @media #{$md} {
+        position: inherit;
+        left: 0;
+        transform: inherit; 
+        width: 100%;
+        height: inherit; 
+        color: white;
+        text-align: center;
+        top: 0px;
+        margin-left: 0px!important;
+       }
+      img{
+        margin:0 auto;
+        display:block;
+        width: inherit;
+        @media #{$sm} {
+            width:204px!important;
+        }
+
+      }
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+    }
+}
+
+#slider {
+    .owl-home {
+        .img-slide {
+            background-size: cover;
+            
+            width: 100%;
+            position: relative;
+            // height: 600px;
+            @media #{$sm} {
+                // height: 400px;
+            }
+        }
+        .img-slide-1 {
+            text-align: center;
+             padding: 320px 0px 220px;
+            background-size: cover;
+            @media #{$sm}{
+                padding: 220px 0px 220px;
+                    height: 100vh;
+                    max-height: 550px;
+                    min-height: 550px;
+            }
+            h1{
+                font-family: 'cormorant_garamondbold', serif;
+                font-weight: 700;
+                font-size: 90px;
+                color:#fff;
+                text-transform: uppercase;
+                @media #{$sm} {
+                    font-size: 51px;
+                        margin: 0 15px;
+                }
+            }
+            p{
+                padding-left: 15px;
+                padding-right: 15px;
+                font-family: 'cormorant_garamondbold', serif;
+                color:#fff;
+                font-size: 41px;
+                font-weight: 400;
+                 @media #{$sm} {
+                    font-size: 21px;
+                    line-height: 1;
+                 }
+
+
+            }
+            .border-top{
+                background:url(../img/shadow.png);
+                background-position: center;
+                background-size:cover;
+                height: 45px;
+                width: 50%;
+                // border-bottom:1px solid rgba(255,255,255, 0.2);
+                margin: 0 auto;
+                display: block;
+                @media #{$md} {
+                   display: none;
+                }
+            }
+            .border-bottom{
+                -webkit-transform: rotate(180deg);
+                   -moz-transform: rotate(180deg);
+                    -ms-transform: rotate(180deg);
+                     -o-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                background:url(../img/shadow.png);
+                background-position: center;
+                background-size:cover;
+                height: 80px;
+                width: 70%;
+                // border-bottom:1px solid rgba(255,255,255, 0.2);
+                margin: 0 auto;
+                display: block;
+                @media #{$md} {
+                    display: none;
+                }
+            }
+             .syg{
+                    width: 300px;
+                    margin-top: 20px;
+                }
+            .slider-nav{
+                margin:0px;
+                padding: 20px 0;
+                list-style:none;
+              /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+14,000000+85&0+14,0.58+52,0+87 */
+                background: -moz-linear-gradient(left, rgba(0,0,0,0) 30%, rgba(0,0,0,0.58) 52%, rgba(0,0,0,0.03) 70%, rgba(0,0,0,0) 87%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left, rgba(0,0,0,0) 30%,rgba(0,0,0,0.58) 52%,rgba(0,0,0,0.03) 70%,rgba(0,0,0,0) 87%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right, rgba(0,0,0,0) 30%,rgba(0,0,0,0.58) 52%,rgba(0,0,0,0.03) 70%,rgba(0,0,0,0) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+                li{
+                    display:inline-block;
+                    margin: 10px;
+                    a{
+                        font-size: 21px;
+                        padding: 5px 15px;
+                        color:#fff;
+                        border:1px solid #fff;
+                        text-transform: uppercase;
+                        @include trans;
+                         @media #{$sm} {
+                            font-size: 18px;
+                        }
+                        &:hover{
+                            color:#fff!important;
+                            background:$main2;
+                             border:1px solid $main2;
+                        }
+                    }
+                }
+            }
+            .button-inf{
+                position: absolute;
+                bottom:0px;
+                width: 100%;
+                padding: 10px 0px;
+                .logos-main{
+                     @media #{$xs} {
+                        width: 150px;
+                        margin-bottom: 15px;
+                     }
+                }
+                .logos{
+                    // width: 160px;
+                    float: right;
+                     @media #{$md} {
+                        float: none;
+                     }
+                     @media #{$xs} {
+                        width: 100px;
+                     }
+                }
+                p{
+                    color:#fff;
+                    padding: 0;
+                    margin:0px;
+                    font-size: 14px;
+                    text-align: left;
+                    margin-top: 3px;
+                    @media #{$md} {
+                        text-align: center;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.img-slide-1{
+
+
+background-position: left;
+// -webkit-animation: move 30s infinite;
+// -moz-animation: move 30s infinite;
+// -ms-animation: move 30s infinite;
+// -o-animation: move 30s infinite;
+// animation: move 30s infinite;
+// animation-timing-function: linear;
+// -webkit-animation-timing-function: linear;
+// -moz-animation-timing-function: linear;
+// -o-animation-timing-function: linear;
+// -ms-animation-timing-function: linear;
+
+// -webkit-transition: all .25s;
+//    -moz-transition: all .25s;
+//     -ms-transition: all .25s;
+//      -o-transition: all .25s;
+//         transition: all .25s;
+}
+@-webkit-keyframes move {
+  0% {
+    background-size:100%
+    /* Firefox */
+  }
+  50% {
+    background-size:120%
+    /* Firefox */
+  }
+  100% {
+    background-size:100%
+    /* Firefox */
+  }
+}
+
+#En-andalutcia-empezo-todo, #Conoce-los-tescenariosde-un-viaje-historico, #Reserva-con-nosotros, #Experiencias{
+    padding: 50px 0px;
+   
+}
+#Conoce-los-tescenariosde-un-viaje-historico{
+    .content-border{
+        padding-top: 60px;
+        .col-md-3{
+            padding: 0;
+        }
+        .col-md-6{
+            padding: 0;
+        }
+    }
+    .box{
+        background-size:cover!important;
+        background-position:center!important;
+        @include trans;
+         &:hover{
+            position: relative;
+            -webkit-transform: scale(1.1);
+               -moz-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                 -o-transform: scale(1.1);
+                    transform: scale(1.1);
+                    z-index: 3;
+            @media #{$sm} {
+                 -webkit-transform: scale(1);
+                   -moz-transform: scale(1);
+                    -ms-transform: scale(1);
+                     -o-transform: scale(1);
+                        transform: scale(1);
+            }
+
+            }
+        .grad{
+            @include tranz;
+            width: 100%;
+            display: block;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+            background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+             @media #{$md}{
+                height: 300px!important;
+            }
+            &:hover{
+                // @include shadow;
+                -webkit-box-shadow: 0px 0px 84px 0px rgba(0,0,0,0.68);
+                -moz-box-shadow: 0px 0px 84px 0px rgba(0,0,0,0.68);
+                box-shadow: 0px 0px 84px 0px rgba(0,0,0,0.68);
+            }
+            .icon img{
+                padding: 10px;
+                background: $main;
+            }
+        }
+        .grad-1{
+            height: 380px;
+            @media #{$sm} {
+                height: auto;
+                min-height: 150px;
+            }
+        }
+        .grad-2{
+            height: 430px;
+            @media #{$sm} {
+                height: auto;
+                min-height: 150px;
+            }
+        }
+        .grad-3{
+            height: 480px;
+            @media #{$sm} {
+                height: auto;
+                min-height: 150px;
+            }
+        }
+        .grad-4{
+            height: 400px;
+            @media #{$sm} {
+                height: auto;
+                min-height: 150px;
+            }
+        }
+        .content{
+            position:absolute;
+            bottom:0px;
+            width: 100%;
+            padding: 20px;
+            span{
+                font-weight: 300!important;
+                font-size: 21px;
+                display:block;
+                color:#fff;
+            }
+            h2{
+                 font-family: 'cormorant_garamondbold', serif;
+                font-weight: 700;
+                font-size: 61px;
+                font-weight: 900;
+                color:#fff;
+                margin-top: 0;
+                text-transform: uppercase;
+                 @media #{$lg} {
+                    font-size: 21px;
+                }
+            }
+            a{}
+            .btn{
+                border:1px solid #fff;
+                color:#fff;
+                background:none;
+                font-size: 16px;
+                font-weight: 300!important;
+                &:hover{
+                    background:$main2!important;
+                    border:1px solid $main;
+                }
+                
+            }
+        }
+    }
+}
+#Experiencias{
+    .content-border{
+        padding-top: 60px;
+    }
+    
+        h3{
+            font-family: 'cormorant_garamondbold', serif;
+            font-weight: 700;
+            font-size: 31px;
+            @media #{$lg}{
+                    font-size: 26px;
+            }
+            @media #{$sm} {
+                font-size: 16px;
+            }
+        }
+        .icon{
+            width: 120px;
+            margin: 0 auto;
+
+            @include tranz;
+            &:hover{
+                background: none;
+                opacity:0.8;
+            }
+            img{
+                width: 80%;
+                @media#{$xs} {
+                    width: 80%;
+                }
+            }
+        }
+    
+}
+
+#Experiencias{
+    .icons-exp{
+        display:table;
+        width: 100%;
+        .tab{
+            display: table-cell;
+            width: 20%;
+            padding: 10px;
+            @media #{$sm} {
+                display: inline-block;
+                width: 29%;
+
+            }
+            @media #{$xs} {
+                display: inline-block;
+                width: 49%;
+
+            }
+
+        }
+    }
+}
+
+#Experiencias .icon-hover:hover > .icon{
+    border:1px solid $grafit;
+    @include shadow;
+    background:$main2;
+}
+.affix-home{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px!important;
+    background: rgba($main, 1)!important;
+    z-index: 999999999;
+    li{
+        @media #{$sm} {
+            margin:0px!important;
+            display: inherit!important;
+        }
+        a{
+            @media #{$sm} {
+                font-size: 12px!important;
+                padding: 5px 15px!important;
+                width: 100%!important;
+                color: #fff;
+                float: left;
+                display: block;
+                margin:0px!important;
+                border: 1px solid #fff;
+            }
+        }
+    }
+}
+.affix-home + .border-bottom{
+    margin-top: 50px!important;
+}
