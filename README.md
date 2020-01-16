@@ -8,7 +8,7 @@
 * [Animate On Scroll Library](https://michalsnik.github.io/aos/)
 
 ## Autores ✒️
-###[Descubrecomunicacion.com](https://descubrecomunicacion.com)
+* [Descubrecomunicacion.com](https://descubrecomunicacion.com)
 * **Piotr Stefaniak** - *Diseño y Desarollo*
 * **Antonio Montill** - *Coordinador*
 * **Estefanía Fernández** - *Contenido*
