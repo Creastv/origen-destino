@@ -1,5 +1,5 @@
 # Origen & Destino | Sigue el camino del Sol
-![](1280×640-git.jp)
+![](1280×640-git.jpg)
 
 ## Construido con 🛠️
 
